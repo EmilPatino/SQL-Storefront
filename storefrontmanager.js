@@ -56,7 +56,7 @@ function listing() {
 
 function low() {
     var query = "SELECT * FROM products WHERE stock_quantity <100";
-    console.log("Displaying items with less than 70 items: \n");
+    console.log("Displaying items with less than 100 items: \n");
     connection.query(query, function(err, res) {
         if (err) throw err;
         for (var i = 0; i < res.length; i++) {
