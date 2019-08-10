@@ -7,7 +7,7 @@ SQL - Storefront is an exercise in using SQL queries and Javascript to interact 
 
 * **Managers' Interface:** Managers are able to view all inventory details, add stock to items, see items with low inventory (<100), and enter new products.
 
-![Managers-Options-Example](/captures/managerOptions.PNG)
+   ![Managers-Options-Example](/captures/managerOptions.PNG)
 
 ### App Features
 As stated above, these apps have five main features that can be triggered by using specific commands from the CLI. These include:
@@ -16,24 +16,24 @@ As stated above, these apps have five main features that can be triggered by usi
 
    **Success**
 
-![Successful-Purchase-Example](/captures/purchase.PNG)
+   ![Successful-Purchase-Example](/captures/purchase.PNG)
 
    **Failure**
 
-![Failed-Purchase-Example](/captures/failedPurchase.PNG)
+   ![Failed-Purchase-Example](/captures/failedPurchase.PNG)
 
 2. **View All Items:** Managers are able to see all product information including stock quantity unlike customers. 
 
-![All-Products-Example](/captures/allProducts.PNG)
+   ![All-Products-Example](/captures/allProducts.PNG)
 
 3. **Add Inventory:** Managers may update the inventory of a selected item when a new shipment comes in. They specify the additional stock quantity and the program will update accordingly. 
 
-![Add-Inventory-Example](/captures/addInventory.PNG)
+   ![Add-Inventory-Example](/captures/addInventory.PNG)
 
 4. **Add Product:** Managers can add new products to the application as they become available. The application will request all the required information. 
 
-![Add-Product-Example](/captures/newProduct.PNG)
+   ![Add-Product-Example](/captures/newProduct.PNG)
 
 5. **Low Inventory:** Managers have the possibility of checking low inventory of any item that has less than 100 stock quantity.
 
-![Low-Inventory-Example](/captures/lowInventory.PNG)
+   ![Low-Inventory-Example](/captures/lowInventory.PNG)
