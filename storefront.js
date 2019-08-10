@@ -1,12 +1,12 @@
+require("dotenv").config();
 var mysql = require("mysql");
 var inquirer = require("inquirer");
-var keys = require("./keys.js");
 
 var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "",
+  password: process.env.password,
   database: "storefront_db"
 });
 
@@ -48,7 +48,7 @@ function listing() {
               console.log("Product Name: " + res[i].product_name + " || Stock: " + res[i].stock_quantity + " || Price: " + res[i].price);
               
             
-            if (res[i].stock_quantity > parseInt(answer.quantity)) {
+            if (res[i].stock_quantity >= parseInt(answer.quantity)) {
                 connection.query(
                   "UPDATE products SET ? WHERE ?",
                   [

@@ -1,12 +1,12 @@
+require("dotenv").config();
 var mysql = require("mysql");
 var inquirer = require("inquirer");
-var keys = require("./keys.js");
 
 var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "",
+  password: process.env.password,
   database: "storefront_db"
 });
 
@@ -163,7 +163,7 @@ function add() {
                     connection.query(updateQuery, function(err, data) {
                     if (err) throw err;  
                     
-                    console.log("\n Your product was entered successfully! \n");
+                    console.log("\n Your stock was updated successfully! \n");
                     start();
                     });
             });
