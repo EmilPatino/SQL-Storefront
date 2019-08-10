@@ -14,7 +14,11 @@ As stated above, these apps have five main features that can be triggered by usi
 
 1. **Purchase:** The application will provide all items available and prompt them to select an item and quantity to purchase. The app will alert the user that there is insufficient stock if they attempt to buy quantities over the existing stock. The app will alert the buyer of successful purchases and provide the total cost.
 
+**Success**
+
 ![Successful-Purchase-Example](/captures/purchase.PNG)
+
+**Failure**
 
 ![Failed-Purchase-Example](/captures/failedPurchase.PNG)
 
