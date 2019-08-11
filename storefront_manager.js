@@ -98,7 +98,6 @@ function newProd() {
     }       
     ])
     .then(function(answer) {
-      // when finished prompting, insert a new item into the db with that info
       connection.query(
         "INSERT INTO products SET ?",
         {
@@ -110,7 +109,6 @@ function newProd() {
         function(err) {
           if (err) throw err;
           console.log("Your product was entered successfully!");
-          // re-prompt the user for if they want to bid or post
           start();
         }
       );

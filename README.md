@@ -9,8 +9,10 @@ SQL - Storefront is an exercise in using SQL queries and Javascript to interact 
 
    ![Managers-Options-Example](/captures/managerOptions.PNG)
 
+* **Supervisors' Interface:** Supervisors are responsible for departments and their profitability. The supervisor app allows supervisors check departments' profitability as well as create new departments.
+
 ### App Features
-As stated above, these apps have five main features that can be triggered by using specific commands from the CLI. These include:
+As stated above, these apps have seven main features that can be triggered by using specific commands from the CLI. These include:
 
 1. **Purchase:** The application will provide all items available and prompt them to select an item and quantity to purchase. The app will alert the user that there is insufficient stock if they attempt to buy quantities over the existing stock. The app will alert the buyer of successful purchases and provide the total cost.
 
@@ -37,3 +39,11 @@ As stated above, these apps have five main features that can be triggered by usi
 5. **Low Inventory:** Managers have the possibility of checking low inventory of any item that has less than 100 stock quantity.
 
    ![Low-Inventory-Example](/captures/lowInventory.PNG)
+
+6. **Create Departments:** Supervisors may create new departments and must enter the department name and the overhead costs.
+
+   ![Create-Department-Example](/captures/addDepartment.PNG)
+
+7. **View Profitability:** Supervisors can view department details and profitability to determine whether a department has met its target revenues.
+
+   ![View-Profitability-Example](/captures/profit.PNG)
